@@ -15,6 +15,7 @@
 	export let numberOnly = false;
 	export let placeholder = '';
 	export let onlyShowMiddleSeparator = false;
+	export let divisor = null;
 
 	let codes: string[] = [
 		...value.slice(0, numOfInputs).split(''),
@@ -51,7 +52,7 @@
 			style={inputStyle}
 			placeholder={placeholders[i]}
 		/>
-		{#if separator && i !== codes.length - 1 && (!onlyShowMiddleSeparator || (onlyShowMiddleSeparator && i === codes.length / 2 - 1 && numOfInputs % 2 === 0))}
+		{#if separator && i !== codes.length - 1 && (!onlyShowMiddleSeparator || (onlyShowMiddleSeparator && numOfInputs % (divisor || codes.length / 2) === 0 && (i + 1) % (divisor || codes.length / 2) === 0))}
 			<span class={separatorClass} style={separatorStyle}>{separator}</span>
 		{/if}
 	{/each}

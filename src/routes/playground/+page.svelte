@@ -11,6 +11,7 @@
 	let separatorStyle = '';
 	let disableDefaultStyle = false;
 	let numberOnly = false;
+	let divisor = '';
 </script>
 
 <svelte:head>
@@ -36,6 +37,8 @@
 		<input id="placeholder" type="text" bind:value={placeholder} /><br />
 		<label for="separator">Separator</label><br />
 		<input id="separator" type="text" bind:value={separator} /><br />
+		<label for="divisor">Divisor</label><br />
+		<input id="divisor" type="text" bind:value={divisor} /><br />
 		<label for="middle">Only show middle separator</label>
 		<input id="middle" type="checkbox" bind:checked={onlyShowMiddleSeparator} /><br />
 		<label for="style">Disable default style</label>
@@ -62,6 +65,7 @@
 				{separatorStyle}
 				{disableDefaultStyle}
 				{numberOnly}
+				{divisor}
 			/>
 		{/key}
 	</div>
