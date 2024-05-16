@@ -9,9 +9,9 @@
 	export let num: boolean;
 	export let style: string;
 	export let placeholder: string;
+	export let autofocus: boolean;
 
 	let key: string;
-	let inputType: string = num ? "number" : "text"
 
 	function shiftFocus(key: string) {
 		if (
@@ -86,6 +86,7 @@
 </script>
 
 <input
+	{autofocus}
 	class={`${nostyle ? '' : 'default-input'} ${className}`}
 	bind:this={input}
 	on:keydown={keyDownHandler}
@@ -96,7 +97,7 @@
 	{style}
 	{value}
 	{placeholder}
-	type="{inputType}"
+	pattern="{num ? "[0-9]*" : ""}"
 />
 
 <style>

@@ -16,6 +16,7 @@
 	export let placeholder = '';
 	export let onlyShowMiddleSeparator = false;
 	export let divisor = '';
+	export let autofocus = false;
 
 	let codes: string[] = [
 		...value.slice(0, numOfInputs).split(''),
@@ -41,6 +42,7 @@
 <div class={`${disableDefaultStyle ? '' : 'wrapper'} ${wrapperClass}`} style={wrapperStyle}>
 	{#each codes as value, i (i)}
 		<OtpItem
+			autofocus={autofocus && i === 0}
 			num={numberOnly}
 			bind:input={inputs[i]}
 			bind:value
