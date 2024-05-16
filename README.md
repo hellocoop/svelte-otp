@@ -2,21 +2,21 @@
 
 A simple lightweight OTP input component for svelte.
 
-- [Documentation](https://k4ung-svelte-otp.netlify.app/usage)
-- [Playground](https://k4ung-svelte-otp.netlify.app/playground)
+- [Documentation](https://rohanharikr-svelte-otp.netlify.app/usage)
+- [Playground](https://rohanharikr-svelte-otp.netlify.app/playground)
 
 <br/>
 
 # Installing
 
 ```
-npm install @k4ung/svelte-otp
+npm install @rohanharikr/svelte-otp
 ```
 
 or
 
 ```
-yarn add @k4ung/svelte-otp
+yarn add @rohanharikr/svelte-otp
 ```
 
 <br/>
@@ -32,7 +32,7 @@ Getting started is as easy as importing the `SvelteOtp` component and just using
 
 ```js
 <script>
-    import SvelteOtp from ‘@k4ung/svelte-otp’;
+    import SvelteOtp from ‘@rohanharikr/svelte-otp’;
 </script>
 
 <SvelteOtp />
@@ -48,7 +48,7 @@ You can also change the number of inputs through the `numOfInputs` prop.
 
 ```js
 <script>
-	import SvelteOtp from ‘@k4ung/svelte-otp’;
+	import SvelteOtp from ‘@rohanharikr/svelte-otp’;
 
     let value = 'abc12'
 
@@ -65,7 +65,7 @@ Separators can be set through the `separator` prop. Placeholders can be added th
 
 ```js
 <script>
-    import SvelteOtp from ‘@k4ung/svelte-otp’;
+    import SvelteOtp from ‘@rohanharikr/svelte-otp’;
 
     let value = '12';
 </script>
