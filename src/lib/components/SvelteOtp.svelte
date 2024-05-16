@@ -15,7 +15,7 @@
 	export let numberOnly = false;
 	export let placeholder = '';
 	export let onlyShowMiddleSeparator = false;
-	export let divisor = null;
+	export let divisor = '';
 
 	let codes: string[] = [
 		...value.slice(0, numOfInputs).split(''),
