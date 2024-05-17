@@ -6,7 +6,7 @@ Separators can be set through the `separator` prop. Placeholders can be added th
 
 ```js
 <script>
-    import SvelteOtp from ‘@rohanharikr/svelte-otp’;
+    import SvelteOtp from ‘@hellocoop/svelte-otp’;
 
     let value = '12';
 </script>

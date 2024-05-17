@@ -22,7 +22,7 @@
 		</svg>
 	</button>
 	<div class="hidden items-center space-x-4 md:flex">
-		<a href="https://github.com/rohanharikr/svelte-otp" target="_blank" rel="noreferrer">
+		<a href="https://github.com/hellocoop/svelte-otp" target="_blank" rel="noreferrer">
 			<svg
 				width="24"
 				height="24"
@@ -36,7 +36,7 @@
 				/>
 			</svg>
 		</a>
-		<a href="https://www.npmjs.com/package/@rohanharikr/svelte-otp" target="_blank" rel="noreferrer">
+		<a href="https://www.npmjs.com/package/@hellocoop/svelte-otp" target="_blank" rel="noreferrer">
 			<svg
 				width="24"
 				height="24"

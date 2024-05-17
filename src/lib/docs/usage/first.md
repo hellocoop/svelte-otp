@@ -1,13 +1,13 @@
 # Installing
 
 ```
-npm install @rohanharikr/svelte-otp
+npm install @hellocoop/svelte-otp
 ```
 
 or
 
 ```
-yarn add @rohanharikr/svelte-otp
+yarn add @hellocoop/svelte-otp
 ```
 
 <br/>
@@ -23,7 +23,7 @@ Getting started is as easy as importing the `SvelteOtp` component and just using
 
 ```js
 <script>
-    import SvelteOtp from ‘@rohanharikr/svelte-otp’;
+    import SvelteOtp from ‘@hellocoop/svelte-otp’;
 </script>
 
 <SvelteOtp />
