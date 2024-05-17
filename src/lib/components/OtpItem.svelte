@@ -85,6 +85,7 @@
 	}
 </script>
 
+<!-- svelte-ignore a11y-autofocus -->
 <input
 	{autofocus}
 	class={`${nostyle ? '' : 'default-input'} ${className}`}

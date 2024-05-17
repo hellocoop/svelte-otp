@@ -2,6 +2,8 @@
 
 A simple input component for one time passcodes (OTP) for Svelte.
 
+![otp in action animation](./static/animation.gif)
+
 <br/>
 
 # Installing
@@ -106,3 +108,5 @@ Here's an example component, styled using [tailwindcss](https://tailwindcss.com/
 | wrapperStyle            | ''                | Inline style to be added to the wrapper element             |
 | inputStyle              | ''                | Inline style to be added to the individual inputs           |
 | separatorStyle          | ''                | Inline style to be added to the separators                  |
+| divisor                 | ''                | Show separator between {divisor} inputs                     |
+| autofocus               | false             | Autofocus on the first input field                          |
